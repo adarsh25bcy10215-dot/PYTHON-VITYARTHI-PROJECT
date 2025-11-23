@@ -222,7 +222,7 @@ if category=='user':
             feedback()
             print('\n' * 4)
         print('\n'*4)
-        more_user=input('Is there any other user OR do you want to proceed again?\n"yes"OR"no": ')
+        more_order=input('Is there any other user OR do you want to proceed again?\n"yes"OR"no": ')
     print(visit)
 
 
@@ -304,6 +304,7 @@ if category=='employee':
         should_continue = input('Do you want to continue further? "yes" OR "no"').lower()
 
     print(visit)
+
 
 
 
